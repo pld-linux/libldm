@@ -7,7 +7,7 @@ Summary:	A tool to manage Windows dynamic disks
 Summary(pl.UTF-8):	Narzędzie do zarządzania dynamicznymi dyskami Windows
 Name:		libldm
 Version:	0.2.3
-Release:	1
+Release:	2
 License:	LGPL v3+ (libldm), GPL v3+ (ldmtool)
 Group:		Libraries
 Source0:	https://github.com/mdbooth/libldm/downloads/%{name}-%{version}.tar.gz
