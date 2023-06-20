@@ -1,17 +1,17 @@
 #
 # Conditional build:
-%bcond_without	apidocs		# do not build and package API docs
-%bcond_without	static_libs	# don't build static libraries
+%bcond_without	apidocs		# API documentation
+%bcond_without	static_libs	# static library
 #
 Summary:	A tool to manage Windows dynamic disks
 Summary(pl.UTF-8):	Narzędzie do zarządzania dynamicznymi dyskami Windows
 Name:		libldm
-Version:	0.2.4
+Version:	0.2.5
 Release:	1
 License:	LGPL v3+ (libldm), GPL v3+ (ldmtool)
 Group:		Libraries
 Source0:	https://github.com/mdbooth/libldm/archive/%{name}-%{version}.tar.gz
-# Source0-md5:	e3fd10e378bc5334708544dcf58138da
+# Source0-md5:	ab38c1a47275eebb9c9cbcaf16220636
 URL:		https://github.com/mdbooth/libldm/
 BuildRequires:	autoconf >= 2.68
 BuildRequires:	automake >= 1.6
